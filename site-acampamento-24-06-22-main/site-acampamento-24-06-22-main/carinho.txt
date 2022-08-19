@@ -1,0 +1,23 @@
+            <nav class="menucarinho">
+                <ul class="ulcarinho">
+                    <li class="limenucarinho">
+                        <a href><img src="https://cdn-icons-png.flaticon.com/512/726/726567.png" alt=""></a>
+                        <ul class="ulcarinhosub">
+                            <li class="ldbc">
+                                <div class="divcarinho">
+                                    <center>
+                                        <div class="divcarinhodentro">
+                                            <p>Carinho Vazio</p>
+                                        </div>
+                                        <button class="butcarinhodentro">Adicionar Produtos</button>
+                                        <img src="..\IMG\Logo__1_-removebg-preview.png" alt="">
+                                    </center>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </nav>

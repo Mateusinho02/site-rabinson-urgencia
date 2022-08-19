@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #eafcfe;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: cursive;
+    text-align: center;
+    color: rgb(8, 8, 8);
+}
+
+header i {
+    color: white;
+}
+
+a {
+    text-decoration: 0;
+    color: inherit;
+}
+
+header {
+    top: 0;
+    background-color: #171b14;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Contrail One', Arial;
+    text-transform: uppercase;
+}
+
+.inicio {
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    border-radius: 100%;
+}
+
+.headerconteudo {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    gap: 50px;
+}
+
+.headerlink {
+    text-decoration: 0;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    transition: 0.3s;
+}
+
+.headerlink:hover {
+    color: rgb(243, 239, 239);
+}
+
+.topNav {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.alogo {
+    text-decoration: none;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    position: relative;
+    top: -226px;
+}
+
+nav#menu li {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav#menu a:hover {
+    color: rgb(0, 0, 0);
+    font-size: 21px;
+    border-bottom: 1px solid black;
+    transition: border-bottom 1s;
+    transition: font-size 1s;
+}
+
+.carousel-inner {
+    max-width: 100%;
+}
+
+.container {
+    margin-top: 0%;
+    width: 200%;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100%;
+}
+
+.principal h1 {
+    padding: 10%;
+    padding-inline: 0%;
+}
+
+.h1 h1 {
+    background-color: #000000;
+}
+
+footer {
+    background-color: #020202;
+    padding: 5em;
+    padding-bottom: 40px;
+    border-top: 5px solid #424241;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer img {
+    width: 180px;
+}
+
+footer h2,
+footer p,
+footer a,
+footer span {
+    color: #d1d1d1;
+}
+
+footer h2 {
+    font-weight: 400;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+}
+
+.footer-box {
+    width: 31%;
+    padding: 1%;
+    float: left;
+}
+
+footer .wrapper:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.company-footer {}
+
+.company-footer h2 {
+    margin-top: 0px;
+}
+
+.company-footer h2,
+.company-footer p {
+    margin-bottom: 25px;
+}
+
+.footer-list li {
+    margin-bottom: 3px;
+}
+
+.footer-list a {
+    transition: .5s;
+}
+
+.footer-list a:hover {
+    color: rgb(2, 2, 2);
+}
+
+.footer-list li:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.insta {
+    position: relative;
+    height: 25px;
+    width: 25px;
+}
+
+.estilos-footer {
+    margin-top: 0px;
+    ;
+}
